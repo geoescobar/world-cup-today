@@ -47,7 +47,7 @@ function StandingsTable() {
   return (
     <div>
       <div className="overflow-x-auto pb-4">
-        <table className="table w-full">
+        <table className="table w-full md:w-auto">
           <thead>
             <tr>
               <th>GROUP A</th>
@@ -66,7 +66,6 @@ function StandingsTable() {
               <th>
                 <div className="avatar">
                   <div className="mask mask-squircle w-12 h-12">
-                    {/* {groupAStats[3]?.team.logo} */}
                     <img src={groupAStats[3]?.team.logo} alt="flag" />
                   </div>
                 </div>
@@ -136,7 +135,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP B</th>
@@ -223,7 +222,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP C</th>
@@ -310,7 +309,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP D</th>
@@ -397,7 +396,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP E</th>
@@ -484,7 +483,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP F</th>
@@ -571,7 +570,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP G</th>
@@ -658,7 +657,7 @@ function StandingsTable() {
             </tr>
           </tbody>
         </table>
-        <table className="table w-full pb-2">
+        <table className="table w-full md:w-auto ">
           <thead>
             <tr>
               <th>GROUP H</th>
