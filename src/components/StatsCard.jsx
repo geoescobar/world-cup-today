@@ -57,7 +57,7 @@ function StatsCard() {
 
   return (
     <div>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 justify-items-center">
         {/* row1 */}
         <div>
           <div className="card w-96 bg-base-100 shadow-xl">
@@ -68,7 +68,7 @@ function StatsCard() {
             </div>
             <div className="card-body">
               <ul>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -88,7 +88,7 @@ function StatsCard() {
                     <div>{mostGoals[0]?.statistics[0].goals.total}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -109,7 +109,7 @@ function StatsCard() {
                     <div>{mostGoals[1]?.statistics[0].goals.total}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -130,7 +130,7 @@ function StatsCard() {
                     <div>{mostGoals[2]?.statistics[0].goals.total}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -151,7 +151,7 @@ function StatsCard() {
                     <div>{mostGoals[3]?.statistics[0].goals.total}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -187,7 +187,7 @@ function StatsCard() {
             </div>
             <div className="card-body">
               <ul>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -210,7 +210,7 @@ function StatsCard() {
                     <div>{mostAssists[0]?.statistics[0].goals.assists}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -234,7 +234,7 @@ function StatsCard() {
                     <div>{mostAssists[1]?.statistics[0].goals.assists}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -258,7 +258,7 @@ function StatsCard() {
                     <div>{mostAssists[2]?.statistics[0].goals.assists}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">
@@ -282,7 +282,7 @@ function StatsCard() {
                     <div>{mostAssists[3]?.statistics[0].goals.assists}</div>
                   </div>
                 </li>
-                <li>
+                <li className="pb-2">
                   <div className="flex justify-between">
                     {" "}
                     <div className="list-container">

@@ -47,7 +47,7 @@ function StandingsTable() {
   return (
     <div>
       <div className="overflow-x-auto pb-4">
-        <table className="table w-full md:w-auto">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP A</th>
@@ -78,7 +78,7 @@ function StandingsTable() {
               <td> {groupAStats[3]?.all.lose} </td>
               <td> {groupAStats[3]?.all.goals.for} </td>
               <td> {groupAStats[3]?.all.goals.against} </td>
-              <td> {groupAStats[3]?.points} </td>
+              <td className="font-bold"> {groupAStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -95,7 +95,7 @@ function StandingsTable() {
               <td> {groupAStats[1]?.all.lose} </td>
               <td> {groupAStats[1]?.all.goals.for} </td>
               <td> {groupAStats[1]?.all.goals.against} </td>
-              <td> {groupAStats[1]?.points} </td>
+              <td className="font-bold"> {groupAStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -113,7 +113,7 @@ function StandingsTable() {
               <td> {groupAStats[2]?.all.lose} </td>
               <td> {groupAStats[2]?.all.goals.for} </td>
               <td> {groupAStats[2]?.all.goals.against} </td>
-              <td> {groupAStats[2]?.points} </td>
+              <td className="font-bold"> {groupAStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -131,11 +131,11 @@ function StandingsTable() {
               <td> {groupAStats[0]?.all.lose} </td>
               <td> {groupAStats[0]?.all.goals.for} </td>
               <td> {groupAStats[0]?.all.goals.against} </td>
-              <td> {groupAStats[0]?.points} </td>
+              <td className="font-bold"> {groupAStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP B</th>
@@ -165,7 +165,7 @@ function StandingsTable() {
               <td> {groupBStats[3]?.all.lose} </td>
               <td> {groupBStats[3]?.all.goals.for} </td>
               <td> {groupBStats[3]?.all.goals.against} </td>
-              <td> {groupBStats[3]?.points} </td>
+              <td className="font-bold"> {groupBStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -182,7 +182,7 @@ function StandingsTable() {
               <td> {groupBStats[1]?.all.lose} </td>
               <td> {groupBStats[1]?.all.goals.for} </td>
               <td> {groupBStats[1]?.all.goals.against} </td>
-              <td> {groupBStats[1]?.points} </td>
+              <td className="font-bold"> {groupBStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -200,7 +200,7 @@ function StandingsTable() {
               <td> {groupBStats[2]?.all.lose} </td>
               <td> {groupBStats[2]?.all.goals.for} </td>
               <td> {groupBStats[2]?.all.goals.against} </td>
-              <td> {groupBStats[2]?.points} </td>
+              <td className="font-bold"> {groupBStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -218,11 +218,11 @@ function StandingsTable() {
               <td> {groupBStats[0]?.all.lose} </td>
               <td> {groupBStats[0]?.all.goals.for} </td>
               <td> {groupBStats[0]?.all.goals.against} </td>
-              <td> {groupBStats[0]?.points} </td>
+              <td className="font-bold"> {groupBStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP C</th>
@@ -252,7 +252,7 @@ function StandingsTable() {
               <td> {groupCStats[3]?.all.lose} </td>
               <td> {groupCStats[3]?.all.goals.for} </td>
               <td> {groupCStats[3]?.all.goals.against} </td>
-              <td> {groupCStats[3]?.points} </td>
+              <td className="font-bold"> {groupCStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -269,7 +269,7 @@ function StandingsTable() {
               <td> {groupCStats[1]?.all.lose} </td>
               <td> {groupCStats[1]?.all.goals.for} </td>
               <td> {groupCStats[1]?.all.goals.against} </td>
-              <td> {groupCStats[1]?.points} </td>
+              <td className="font-bold"> {groupCStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -287,7 +287,7 @@ function StandingsTable() {
               <td> {groupCStats[2]?.all.lose} </td>
               <td> {groupCStats[2]?.all.goals.for} </td>
               <td> {groupCStats[2]?.all.goals.against} </td>
-              <td> {groupCStats[2]?.points} </td>
+              <td className="font-bold"> {groupCStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -305,11 +305,11 @@ function StandingsTable() {
               <td> {groupCStats[0]?.all.lose} </td>
               <td> {groupCStats[0]?.all.goals.for} </td>
               <td> {groupCStats[0]?.all.goals.against} </td>
-              <td> {groupCStats[0]?.points} </td>
+              <td className="font-bold"> {groupCStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP D</th>
@@ -339,7 +339,7 @@ function StandingsTable() {
               <td> {groupDStats[3]?.all.lose} </td>
               <td> {groupDStats[3]?.all.goals.for} </td>
               <td> {groupDStats[3]?.all.goals.against} </td>
-              <td> {groupDStats[3]?.points} </td>
+              <td className="font-bold"> {groupDStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -356,7 +356,7 @@ function StandingsTable() {
               <td> {groupDStats[1]?.all.lose} </td>
               <td> {groupDStats[1]?.all.goals.for} </td>
               <td> {groupDStats[1]?.all.goals.against} </td>
-              <td> {groupDStats[1]?.points} </td>
+              <td className="font-bold"> {groupDStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -374,7 +374,7 @@ function StandingsTable() {
               <td> {groupDStats[2]?.all.lose} </td>
               <td> {groupDStats[2]?.all.goals.for} </td>
               <td> {groupDStats[2]?.all.goals.against} </td>
-              <td> {groupDStats[2]?.points} </td>
+              <td className="font-bold"> {groupDStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -392,11 +392,11 @@ function StandingsTable() {
               <td> {groupDStats[0]?.all.lose} </td>
               <td> {groupDStats[0]?.all.goals.for} </td>
               <td> {groupDStats[0]?.all.goals.against} </td>
-              <td> {groupDStats[0]?.points} </td>
+              <td className="font-bold"> {groupDStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP E</th>
@@ -426,7 +426,7 @@ function StandingsTable() {
               <td> {groupEStats[3]?.all.lose} </td>
               <td> {groupEStats[3]?.all.goals.for} </td>
               <td> {groupEStats[3]?.all.goals.against} </td>
-              <td> {groupEStats[3]?.points} </td>
+              <td className="font-bold"> {groupEStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -443,7 +443,7 @@ function StandingsTable() {
               <td> {groupEStats[1]?.all.lose} </td>
               <td> {groupEStats[1]?.all.goals.for} </td>
               <td> {groupEStats[1]?.all.goals.against} </td>
-              <td> {groupEStats[1]?.points} </td>
+              <td className="font-bold"> {groupEStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -461,7 +461,7 @@ function StandingsTable() {
               <td> {groupEStats[2]?.all.lose} </td>
               <td> {groupEStats[2]?.all.goals.for} </td>
               <td> {groupEStats[2]?.all.goals.against} </td>
-              <td> {groupEStats[2]?.points} </td>
+              <td className="font-bold"> {groupEStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -479,11 +479,11 @@ function StandingsTable() {
               <td> {groupEStats[0]?.all.lose} </td>
               <td> {groupEStats[0]?.all.goals.for} </td>
               <td> {groupEStats[0]?.all.goals.against} </td>
-              <td> {groupEStats[0]?.points} </td>
+              <td className="font-bold"> {groupEStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP F</th>
@@ -513,7 +513,7 @@ function StandingsTable() {
               <td> {groupFStats[3]?.all.lose} </td>
               <td> {groupFStats[3]?.all.goals.for} </td>
               <td> {groupFStats[3]?.all.goals.against} </td>
-              <td> {groupFStats[3]?.points} </td>
+              <td className="font-bold"> {groupFStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -530,7 +530,7 @@ function StandingsTable() {
               <td> {groupFStats[1]?.all.lose} </td>
               <td> {groupFStats[1]?.all.goals.for} </td>
               <td> {groupFStats[1]?.all.goals.against} </td>
-              <td> {groupFStats[1]?.points} </td>
+              <td className="font-bold"> {groupFStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -548,7 +548,7 @@ function StandingsTable() {
               <td> {groupFStats[2]?.all.lose} </td>
               <td> {groupFStats[2]?.all.goals.for} </td>
               <td> {groupFStats[2]?.all.goals.against} </td>
-              <td> {groupFStats[2]?.points} </td>
+              <td className="font-bold"> {groupFStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -566,11 +566,11 @@ function StandingsTable() {
               <td> {groupFStats[0]?.all.lose} </td>
               <td> {groupFStats[0]?.all.goals.for} </td>
               <td> {groupFStats[0]?.all.goals.against} </td>
-              <td> {groupFStats[0]?.points} </td>
+              <td className="font-bold"> {groupFStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP G</th>
@@ -600,7 +600,7 @@ function StandingsTable() {
               <td> {groupGStats[3]?.all.lose} </td>
               <td> {groupGStats[3]?.all.goals.for} </td>
               <td> {groupGStats[3]?.all.goals.against} </td>
-              <td> {groupGStats[3]?.points} </td>
+              <td className="font-bold"> {groupGStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -617,7 +617,7 @@ function StandingsTable() {
               <td> {groupGStats[1]?.all.lose} </td>
               <td> {groupGStats[1]?.all.goals.for} </td>
               <td> {groupGStats[1]?.all.goals.against} </td>
-              <td> {groupGStats[1]?.points} </td>
+              <td className="font-bold"> {groupGStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -635,7 +635,7 @@ function StandingsTable() {
               <td> {groupGStats[2]?.all.lose} </td>
               <td> {groupGStats[2]?.all.goals.for} </td>
               <td> {groupGStats[2]?.all.goals.against} </td>
-              <td> {groupGStats[2]?.points} </td>
+              <td className="font-bold"> {groupGStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -653,11 +653,11 @@ function StandingsTable() {
               <td> {groupGStats[0]?.all.lose} </td>
               <td> {groupGStats[0]?.all.goals.for} </td>
               <td> {groupGStats[0]?.all.goals.against} </td>
-              <td> {groupGStats[0]?.points} </td>
+              <td className="font-bold"> {groupGStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
-        <table className="table w-full md:w-auto ">
+        <table className="table lg:w-full sm:w-auto">
           <thead>
             <tr>
               <th>GROUP H</th>
@@ -687,7 +687,7 @@ function StandingsTable() {
               <td> {groupHStats[3]?.all.lose} </td>
               <td> {groupHStats[3]?.all.goals.for} </td>
               <td> {groupHStats[3]?.all.goals.against} </td>
-              <td> {groupHStats[3]?.points} </td>
+              <td className="font-bold"> {groupHStats[3]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -704,7 +704,7 @@ function StandingsTable() {
               <td> {groupHStats[1]?.all.lose} </td>
               <td> {groupHStats[1]?.all.goals.for} </td>
               <td> {groupHStats[1]?.all.goals.against} </td>
-              <td> {groupHStats[1]?.points} </td>
+              <td className="font-bold"> {groupHStats[1]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -722,7 +722,7 @@ function StandingsTable() {
               <td> {groupHStats[2]?.all.lose} </td>
               <td> {groupHStats[2]?.all.goals.for} </td>
               <td> {groupHStats[2]?.all.goals.against} </td>
-              <td> {groupHStats[2]?.points} </td>
+              <td className="font-bold"> {groupHStats[2]?.points} </td>
             </tr>
             <tr>
               <th>
@@ -740,7 +740,7 @@ function StandingsTable() {
               <td> {groupHStats[0]?.all.lose} </td>
               <td> {groupHStats[0]?.all.goals.for} </td>
               <td> {groupHStats[0]?.all.goals.against} </td>
-              <td> {groupHStats[0]?.points} </td>
+              <td className="font-bold"> {groupHStats[0]?.points} </td>
             </tr>
           </tbody>
         </table>
