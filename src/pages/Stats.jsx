@@ -11,7 +11,7 @@ function Stats() {
           className="hero min-h-96 h-96"
           style={{
             backgroundImage:
-              'url("https://www.sltrib.com/resizer/RKXusbHsHDyVTJztC8bvxmeSvyE=/1024x650/arc-anglerfish-arc2-prod-sltrib.s3.amazonaws.com/public/2MOV4GM2YRAYRF5AGHLQGUZXRY.aspx")',
+              'url("https://www.thesun.co.uk/wp-content/uploads/2022/11/richarlison-brazil-scores-teams-second-778033651.jpg?strip=all&w=960")',
           }}
         >
           <div className="hero-overlay bg-opacity-60"></div>

@@ -11,7 +11,7 @@ function Standings() {
           className="hero min-h-96 h-96"
           style={{
             backgroundImage:
-              'url("https://digitalhub.fifa.com/m/74dcea0f99c7fa98/webimage-Previews-FIFA-World-Cup-Qatar-2022.png")',
+              'url("https://fivethirtyeight.com/wp-content/uploads/2022/11/GettyImages-1442587075-e1668806020544.jpg?w=917")',
             backgroundSize: "cover",
           }}
         >

@@ -8,7 +8,7 @@ function Navbar() {
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <Link to="/">
-            <p className="btn btn-ghost normal-case text-xl">
+            <p className="btn btn-ghost normal-case text-xl sm:display-none">
               <MdOutlineSportsSoccer />
               World Cup Today
             </p>

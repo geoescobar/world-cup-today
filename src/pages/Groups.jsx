@@ -10,7 +10,7 @@ function Groups() {
         <div
           className="hero min-h-96 h-96"
           style={{
-            backgroundImage: `url("https://futbol.si.com/.image/t_share/MTg4NDM1MDczNDQ2OTc4NzIz/al-rihla.webp")`,
+            backgroundImage: `url("https://media.nbcwashington.com/2022/11/GettyImages-1443020022-e1668958940887.jpg?quality=85&strip=all&fit=4132%2C2320")`,
           }}
         >
           <div className="hero-overlay bg-opacity-60"></div>

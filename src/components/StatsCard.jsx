@@ -57,7 +57,7 @@ function StatsCard() {
 
   return (
     <div>
-      <div class="grid grid-cols-2 justify-items-center">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1 justify-items-center">
         {/* row1 */}
         <div>
           <div className="card w-96 bg-base-100 shadow-xl">
