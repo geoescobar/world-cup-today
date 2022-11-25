@@ -6,9 +6,9 @@ function Navbar() {
   return (
     <div>
       <div className="navbar bg-base-100">
-        <div className="flex-1">
+        <div className="flex-1 sm:block hidden">
           <Link to="/">
-            <p className="btn btn-ghost normal-case text-xl sm:display-none">
+            <p className="btn btn-ghost normal-case text-xl">
               <MdOutlineSportsSoccer />
               World Cup Today
             </p>

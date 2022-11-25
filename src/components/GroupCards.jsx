@@ -3,7 +3,7 @@ import React from "react";
 function GroupCards() {
   return (
     <div className=" justify-center content-center items-center h-screen">
-      <div class="grid lg:grid-cols-4 sm:grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4">
         <div className="card w-full bg-base-100 shadow-xl">
           <div className="p-4 bg-gradient-to-r from-[#B91372] via-[#6B0F1A] to-[#B91372]">
             <div className="divider">
