@@ -25,6 +25,9 @@ function Navbar() {
             <li>
               <Link to="/player-stats">Player Stats</Link>
             </li>
+            <li>
+              <Link to="/scores">Scores</Link>
+            </li>
           </ul>
         </div>
       </div>
