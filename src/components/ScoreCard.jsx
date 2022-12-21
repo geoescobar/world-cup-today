@@ -30,6 +30,7 @@ function ScoreCard() {
       .catch((error) => {
         console.error(error);
       });
+    // eslint-disable-next-line
   }, []);
 
   const sortedGames = games.sort(
